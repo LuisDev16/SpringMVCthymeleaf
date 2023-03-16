@@ -28,8 +28,8 @@ public class ContactController {
         return "contact";
     }
 
-   /* @RequestMapping(value="/saveMsg",method = RequestMethod.POST)
-    public ModelAndView saveMessage(@RequestParam String name, @RequestParam String mobileNum,
+    /*@RequestMapping(value="/saveMsg",method = RequestMethod.POST)
+    public ModelAndView saveMessage(@RequestParam (required = true)String name, @RequestParam String mobileNum,
                                     @RequestParam String email, @RequestParam String subject,
                                     @RequestParam String message){
 
